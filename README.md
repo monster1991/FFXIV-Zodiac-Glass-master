@@ -6,7 +6,7 @@ I will no longer update the memory addresses automatically.
 
 You can use the [Memory Address Update Guide](https://github.com/MartinKuschnik/FFXIV-Zodiac-Glass/wiki/Memory-Address-Update-Guide) to update the memory addresses and request a merge. I will do such an update by myself only if I got multiple requests.
 
-DirectX 11 is also not supported!!!
+DirectX 11 is supported!!!
 
 ## What is FFXIV-Zodiac-Glass?
 A tiny Final Fantasy XIV overlay that allows you to observe the progress of your Nexus and Zeta weapons.
@@ -30,7 +30,7 @@ Currently there a two modes:
   - percentage value
 
 ## How to download it?
-Go to [Releases](https://github.com/MartinKuschnik/FFXIV-Zodiac-Glass/releases) and download the current version.
+Go to [Releases](https://github.com/monster1991/FFXIV-Zodiac-Glass/releases) and download the current version.
 
 ## Troubleshooting
 - The program does not start (No Tray Icon visible):
@@ -43,6 +43,7 @@ Go to [Releases](https://github.com/MartinKuschnik/FFXIV-Zodiac-Glass/releases) 
 
   - Use the assistent to track down the reason.
 
-      <img title="Zeta Overlay" src="https://github.com/MartinKuschnik/FFXIV-Zodiac-Glass/blob/master/doc/pics/context_menu_CanNotSeeOverlay.jpg" />
+      <img title="Zeta Overlay" src="https://github.com/monster1991/FFXIV-Zodiac-Glass/blob/master/doc/pics/context_menu_CanNotSeeOverlay.jpg" />
 
 © 2016 Martin Kuschnik
+@ 2018 monster1991
