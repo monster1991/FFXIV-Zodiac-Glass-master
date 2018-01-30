@@ -66,8 +66,8 @@
                     {
                         p = (int*)(this.process.MainModule.BaseAddress + this.memMep.ItemSetPointer.BaseAddressOffset[0]);
 
-                        p = (int*)(this.Read<int>(p) + this.memMep.ItemSetPointer.Offsets[0]);
-                        p = (int*)(this.Read<int>(p) + this.memMep.ItemSetPointer.Offsets[1]);
+                        p = (int*)(this.Read<Int64>(p) + this.memMep.ItemSetPointer.Offsets[0]);
+                        p = (int*)(this.Read<Int64>(p) + this.memMep.ItemSetPointer.Offsets[1]);
                     }
                     else
                     {
@@ -77,7 +77,7 @@
                         p = (int*)(this.Read<int>(p) + this.memMep.ItemSetPointer.Offsets[3]);
                     }
 
-                    this.log.Write(Diagnostics.LogLevel.Info, "Setting Read FFXIVItemSet()");
+                    this.log.Write(Diagnostics.LogLevel.Info, string.Format("Setting Read({0})", p->ToString()));
                     return this.Read<FFXIVItemSet>(p);
                 }
                 else
