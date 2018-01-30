@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Update xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.4.1511.20001</Version>
+  <Content>
+    <File>
+      <Source>http://127.0.0.1/</Source>
+      <Target>null.exe</Target>
+    </File>
+  </Content>
+</Update>

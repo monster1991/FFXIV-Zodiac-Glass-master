@@ -1,0 +1,7 @@
+﻿A tiny Final Fantasy XIV overlay that allows you to observe the progress of your Nexus Weapon.
+
+
+{$Copyright}
+
+Support:
+- https://github.com/MartinKuschnik/FFXIV-Zodiac-Glass

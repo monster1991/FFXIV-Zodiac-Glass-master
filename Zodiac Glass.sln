@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zodiac Glass", "Zodiac Glass\Zodiac Glass.csproj", "{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFF7F443-C560-4685-ACA5-645EEF88D9C3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		MEMMAP = MEMMAP
+		README.md = README.md
+		UPDATE = UPDATE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{A4C1B7D3-69E4-474C-B224-E68AE006E93E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pics", "pics", "{DDC6E237-F429-48A5-B1B9-4A7801D68341}"
+	ProjectSection(SolutionItems) = preProject
+		doc\pics\context_menu_CanNotSeeOverlay.jpg = doc\pics\context_menu_CanNotSeeOverlay.jpg
+		doc\pics\notify_icon_context_menu.jpg = doc\pics\notify_icon_context_menu.jpg
+		doc\pics\overlay_zeta.jpg = doc\pics\overlay_zeta.jpg
+		doc\pics\overlay_zodiac.jpg = doc\pics\overlay_zodiac.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mem_update_guide", "mem_update_guide", "{C95F93BF-8013-455F-A385-A5622FCB2EF4}"
+	ProjectSection(SolutionItems) = preProject
+		doc\pics\mem_update_guide\addresses_after_all_pointer_scans.jpg = doc\pics\mem_update_guide\addresses_after_all_pointer_scans.jpg
+		doc\pics\mem_update_guide\addresses_after_first_pointer_scan.jpg = doc\pics\mem_update_guide\addresses_after_first_pointer_scan.jpg
+		doc\pics\mem_update_guide\addresses_after_first_relog.jpg = doc\pics\mem_update_guide\addresses_after_first_relog.jpg
+		doc\pics\mem_update_guide\addresses_final.jpg = doc\pics\mem_update_guide\addresses_final.jpg
+		doc\pics\mem_update_guide\addresses_from_scan.jpg = doc\pics\mem_update_guide\addresses_from_scan.jpg
+		doc\pics\mem_update_guide\addresses_to_files.jpg = doc\pics\mem_update_guide\addresses_to_files.jpg
+		doc\pics\mem_update_guide\addresslist_after_adding_addresses_from_scan.jpg = doc\pics\mem_update_guide\addresslist_after_adding_addresses_from_scan.jpg
+		doc\pics\mem_update_guide\attach_to_process.jpg = doc\pics\mem_update_guide\attach_to_process.jpg
+		doc\pics\mem_update_guide\attach_to_process_2.jpg = doc\pics\mem_update_guide\attach_to_process_2.jpg
+		doc\pics\mem_update_guide\edit_pointer_address.jpg = doc\pics\mem_update_guide\edit_pointer_address.jpg
+		doc\pics\mem_update_guide\find_weapon_id.jpg = doc\pics\mem_update_guide\find_weapon_id.jpg
+		doc\pics\mem_update_guide\find_weapon_id_2.jpg = doc\pics\mem_update_guide\find_weapon_id_2.jpg
+		doc\pics\mem_update_guide\first_scan.jpg = doc\pics\mem_update_guide\first_scan.jpg
+		doc\pics\mem_update_guide\next_scan.jpg = doc\pics\mem_update_guide\next_scan.jpg
+		doc\pics\mem_update_guide\pointer_scan_options.jpg = doc\pics\mem_update_guide\pointer_scan_options.jpg
+		doc\pics\mem_update_guide\start_pointer_scan.jpg = doc\pics\mem_update_guide\start_pointer_scan.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Debug|x86.Build.0 = Debug|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Release|x86.ActiveCfg = Release|x86
+		{CEF678D2-4FF4-4FCE-8B03-CC1DB468521C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDC6E237-F429-48A5-B1B9-4A7801D68341} = {A4C1B7D3-69E4-474C-B224-E68AE006E93E}
+		{C95F93BF-8013-455F-A385-A5622FCB2EF4} = {DDC6E237-F429-48A5-B1B9-4A7801D68341}
+	EndGlobalSection
+EndGlobal
