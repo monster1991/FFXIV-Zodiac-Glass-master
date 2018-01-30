@@ -29,9 +29,6 @@ Currently there a two modes:
   - simple points value
   - percentage value
 
-## How to download it?
-Go to [Releases](https://github.com/monster1991/FFXIV-Zodiac-Glass/releases) and download the current version.
-
 ## Troubleshooting
 - The program does not start (No Tray Icon visible):
 
